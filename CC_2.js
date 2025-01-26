@@ -33,3 +33,17 @@ employee.department = "Pitcher"
 employee.position = "Player";
 
 console.log(employee);
+
+// Task 4
+let customers = [
+    {name: "Lebron James", email: "kingjames23@gmail.com", purchaseAmmount: 200},
+    {name: "Michael Phelps", email: "michaelphelps@gmail.com", purchaseAmmount: 100},
+    {name: "Tiger Woods", email: "mrfivetimes@hotmail,com", purchaseAmmount: 300},
+];
+
+console.log(customers);
+
+customers.push({name: "Tim Tebow", email: "floridaman15@gmail.com", purchaseAmmount: 50});
+
+console.log(customers);
+
